@@ -1,4 +1,4 @@
-/* Reset Dasar */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +10,6 @@ body {
     background-color: #f9f9f9;
 }
 
-/* Navbar */
 .navbar {
     background-color: #ffffff;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -55,7 +54,6 @@ body {
     color: #1bc972;
 }
 
-/* Tombol Hover */
 .btn-kontak {
     background-color: #007bff;
     color: white !important;
@@ -69,7 +67,6 @@ body {
     transform: translateY(-2px);
 }
 
-/* Hamburger Menu (Mobile) */
 .hamburger {
     display: none;
     cursor: pointer;
@@ -88,7 +85,6 @@ body {
     transition: all 0.3s ease;
 }
 
-/* Hero Slider */
 .hero-slider-container {
     position: relative;
     max-width: 1200px;
@@ -129,7 +125,6 @@ body {
     border-radius: 8px;
 }
 
-/* Tombol Slider */
 .prev,
 .next {
     position: absolute;
@@ -158,7 +153,6 @@ body {
     background-color: rgba(255, 255, 255, 0.9);
 }
 
-/* Dot Indikator */
 .dots-container {
     position: absolute;
     bottom: 20px;
@@ -181,7 +175,6 @@ body {
     background-color: white;
 }
 
-/* Responsif Media Query */
 @media (max-width: 768px) {
     .nav-menu {
         position: fixed;
@@ -236,9 +229,6 @@ body {
     }
 }
 
-/* Produk */
-
-/* Header */
 header {
     text-align: center;
     padding: 40px 20px;
@@ -257,7 +247,6 @@ header h1 {
     font-size: 1.2rem;
 }
 
-/* Container Produk */
 .produk-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -272,7 +261,6 @@ header h1 {
     text-align: center;
 }
 
-/* Kartu Produk */
 .produk-card {
     background-color: #ffffff;
     border-radius: 12px;
@@ -321,7 +309,6 @@ header h1 {
     margin-bottom: 20px;
 }
 
-/* Tombol Beli */
 .btn-beli {
     background-color: #3498db;
     color: #ffffff;
@@ -339,7 +326,6 @@ header h1 {
     background-color: #2980b9;
 }
 
-/* Tampilan khusus untuk layar HP (lebar maksimal 600px) */
 @media (max-width: 600px) {
     .produk-container {
         display: grid;
@@ -369,8 +355,6 @@ header h1 {
     height: 50px;
 }
 
-/* Menu */
-
 .menu-section {
     max-width: 1200px;
     margin: 0 auto;
@@ -389,7 +373,6 @@ header h1 {
     font-size: 1.2rem;
 }
 
-/* Menggunakan Grid untuk menampilkan beberapa gambar sejajar */
 .menu-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -401,7 +384,6 @@ font-size: 15px;
 text-align: center;
 }
 
-/* Kotak Kartu Menu */
 .menu-item {
     background: #fff;
     border-radius: 15px;
@@ -414,7 +396,6 @@ text-align: center;
     transform: translateY(-5px);
 }
 
-/* Pengaturan Gambar */
 .menu-item img {
     width: 100%;
     height: auto;
@@ -426,7 +407,7 @@ text-align: center;
     transform: scale(1.05);
 }
 
-/* Informasi Teks Menu */
+
 .menu-info {
     padding: 20px;
     text-align: left;
@@ -442,7 +423,7 @@ text-align: center;
     font-size: 20px;
     font-weight: bold;
     color: #e67e22;
-    /* Warna Oranye / Aksen Makanan */
+   
 }
 
 @media (max-width: 600px) {
@@ -456,7 +437,6 @@ text-align: center;
     }
 }
 
-/* Daftar Toko */
 header {
     text-align: center;
     padding: 40px 20px;
@@ -464,7 +444,6 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Container utama untuk grid 4 kolom */
 .gallery-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -474,7 +453,6 @@ header {
     padding: 20px;
   }
   
-  /* Tampilan setiap item */
   .gallery-item {
     background: #f9f9f9;
     border: 1px solid #ddd;
@@ -486,7 +464,6 @@ header {
     justify-content: space-between;
   }
   
-  /* Gambar agar responsif */
   .gallery-item img {
     width: 100%;
     height: auto;
@@ -494,7 +471,6 @@ header {
     margin-bottom: 15px;
   }
   
-  /* Tombol WhatsApp */
   .wa-button {
     display: inline-block;
     background-color: #25d366;
@@ -511,10 +487,9 @@ header {
     background-color: #128c7e;
   }
   
-  /* Pengaturan Responsif (Mobile & Tablet) */
   @media (max-width: 1024px) {
     .gallery-container {
-      grid-template-columns: repeat(2, 1fr); /* 2 kolom untuk tablet */
+      grid-template-columns: repeat(2, 1fr);
     }
   }
   
@@ -529,22 +504,16 @@ header {
     }
   }
   
-
-
-/* Konten Berita */
-/* Mengatur kontainer utama menjadi CSS Grid */
 .container-berita {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    /* Default: 4 kolom sama lebar */
-    gap: 20px;
-    /* Jarak antar kolom dan baris */
+    grid-template-columns: repeat(4, 1fr);    
+    gap: 20px;    
     padding: 20px;
     max-width: 1300px;
     margin: 0 auto;
 }
 
-/* Desain dasar kartu berita */
+
 .kartu-berita {
     background: #ffffff;
     border: 1px solid #ddd;
@@ -554,14 +523,12 @@ header {
     flex-direction: column;
 }
 
-/* Gambar agar responsif dan proporsional */
 .kartu-berita img {
     width: 100%;
     height: auto;
     object-fit: cover;
 }
 
-/* Padding di dalam kartu */
 .isi-kartu {
     padding: 15px;
     display: flex;
@@ -581,7 +548,6 @@ header {
     flex-grow: 1;
 }
 
-/* Tombol baca selengkapnya */
 .tombol-baca {
     display: inline-block;
     margin-top: 15px;
@@ -598,16 +564,12 @@ header {
     background-color: #0056b3;
 }
 
-/* Pengaturan Responsif (Media Query) */
 @media screen and (max-width: 600px) {
     .container-berita {
         grid-template-columns: 1fr;
     }
 }
 
-/* MAP dan Kontak */
-/* Container utama */
-/* Reset CSS dasar */
 * {
     margin: 0;
     padding: 0;
@@ -627,20 +589,17 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Container utama */
 .container {
     max-width: 1100px;
     margin: 0 auto;    
 }
 
-/* Wrapper Grid 2 Kolom */
 .contact-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Membagi rata 2 kolom */
+    grid-template-columns: 1fr 1fr; 
     gap: 30px;
 }
 
-/* Styling Kolom */
 .contact-col {
     background-color: #fff;
     padding: 30px;
@@ -660,7 +619,6 @@ header {
     line-height: 1.6;
 }
 
-/* Styling Daftar Sosial Media */
 .social-list {
     display: flex;
     flex-direction: column;
@@ -684,37 +642,30 @@ header {
     opacity: 0.9;
 }
 
-/* Warna Brand Sosial Media */
 .social-item.wa { background-color: #25D366; }
 .social-item.fb { background-color: #1877F2; }
 .social-item.ig { background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d); }
 .social-item.twitter { background-color: #000000; }
 
-/* Styling Peta */
 .map-container {
     border-radius: 8px;
     overflow: hidden;
     border: 1px solid #ddd;
 }
 
-/* Responsif: Menjadi 1 Kolom di layar kecil */
 @media (max-width: 768px) {
     .contact-wrapper {
-        grid-template-columns: 1fr; /* Mengubah menjadi 1 kolom */
+        grid-template-columns: 1fr; 
     }
 }
 
-
-/* Testimoni */
 .testimoni-container {
     position: relative;
     width: 100%;
-    max-width: 600px;
-    /* Lebar maksimal slider */
+    max-width: 600px;   
     margin: 0 auto;
     overflow: hidden;
-    height: 300px;
-    /* Sesuaikan tinggi dengan kebutuhan */
+    height: 300px;   
     margin-top: 15px;
 }
 
@@ -727,7 +678,6 @@ header {
     animation: slideAnimation 12s infinite;
 }
 
-/* Mengatur gambar agar responsif */
 .testimoni-slide img {
     width: 200px;
     height: 200px;
@@ -748,7 +698,6 @@ header {
     margin-bottom: 200px;
 }
 
-/* Mengatur delay pergantian untuk tiap slide */
 .testimoni-slide:nth-child(1) {
     animation-delay: 0s;
 }
@@ -761,7 +710,6 @@ header {
     animation-delay: 8s;
 }
 
-/* Logika animasi otomatis */
 @keyframes slideAnimation {
     0% {
         opacity: 0;
@@ -784,8 +732,6 @@ header {
     }
 }
 
-/* Footer */
-/* Reset & Pengaturan Dasar */
 .site-footer {
     width: 100%;
     background-color: #1a1a1a;
@@ -805,7 +751,6 @@ header {
     gap: 30px;
 }
 
-/* Kolom Footer */
 .footer-col {
     flex: 1;
     min-width: 250px;
@@ -844,13 +789,11 @@ header {
     color: #ffffff;
 }
 
-/* Kontak */
 .contact-info li i {
     width: 20px;
     margin-right: 10px;
 }
 
-/* Sosial Media */
 .social-icons a {
     display: inline-block;
     width: 35px;
@@ -868,7 +811,6 @@ header {
     background-color: #007bff;
 }
 
-/* Bagian Bawah Footer */
 .footer-bottom {
     border-top: 1px solid #333333;
     text-align: center;
@@ -877,7 +819,6 @@ header {
     color: #adb5bd;
 }
 
-/* Responsif untuk Mobile */
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;
